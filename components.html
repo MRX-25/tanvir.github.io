@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta name="description" content="Start your development with Meyawo landing page.">
+   <meta name="author" content="Devcrud">
+   <title>Projects Page | Projects</title>
+   <!-- font icons -->
+   <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+   <!-- Bootstrap + Steller  -->
+   <link rel="stylesheet" href="assets/css/meyawo.css">
+   <!-- Custom styles for header -->
+   <style>
+    .header-container {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+        /* Light Yellow color */
+       padding: 1rem; /* Adjust padding as needed */
+       border-radius: 50px; /* Adjust border radius as needed */
+       max-width: 300px; /* Adjust maximum width as needed */
+       margin: 0 auto; /* Center horizontally */
+    }
+    .header-title {
+       font-size: 9rem; /* Adjust font size as needed */
+       margin-bottom: 1rem; /* Adjust margin as needed */
+       text-align: center;
+       background-color: white; /* Change background color to white */
+       padding: 0.5rem; /* Add padding around the title */
+       border-radius: 20px; /* Add border radius */
+    }
+    .breadcrumb {
+       text-align: center;
+       font-size: 10 rem;
+       font-weight: bolder;
+       background-color: #fafad2;
+       border-radius: 50px;
+       padding: 1rem;
+       max-width: 300px;
+       margin: 0 auto;
+    }
+    /* Add space below header */
+    .small-header {
+        margin-bottom: 2rem; /* Adjust margin as needed */
+    }
+ </style>
+</head>
+
+<body>
+
+   <!-- Small Header Section -->
+    <section class="small-header" id="small-header"> 
+      <div class="container">
+         <header class="header-mini">
+            <div class="header-container">
+               <div class="header-title">Projects</div>
+               <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                     <li class="breadcrumb-item active" aria-current="page"><a href="#">Projects</a></li>
+                  </ol>
+               </nav>
+            </div>
+         </header>
+      </div>
+   </section> 
+</body>
+
+</html>
+
+
+
+
+
+
+
+   <!-- Main Content -->
+   <section class="main-content">
+      <!-- about section -->
+      <section class="section pt-0" id="about">
+         <!-- container -->
+         <div class="container text-center">
+            <!-- about wrapper -->
+            
+
+            <style>
+               .about {
+                   text-align: center; /* Center the content horizontally */
+               }
+           
+               .about-img-holder {
+                   display: flex;
+                   justify-content: center; /* Center the content horizontally */
+                   align-items: center; /* Center the content vertically */
+                   flex-wrap: nowrap; /* Ensure items stay in a single row */
+                   gap: 20px; /* Add spacing between images and videos */
+                   overflow-x: auto; /* Enable horizontal scrolling if content overflows container */
+                   margin: auto; /* Center the container horizontally */
+                   max-width: 1300px; /* Set maximum width for the container */
+               }
+           
+               .about-img {
+                   border-radius: 5%;
+                   width: 300px;
+                   height: 200px;
+               }
+           </style>
+           
+           <div class="about">
+               <div class="about-img-holder">
+                   <iframe src="https://drive.google.com/file/d/1Rs9FGUncpZK0dtw2MWnGARC_katDTtsX/preview" class="about-img"></iframe>
+                   <img src="assets/imgs/mv2.png" class="about-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                   <img src="assets/imgs/mv3.png" class="about-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                   
+                  </div>
+           </div>
+           <p><strong>Maven Market Toys Analysis</strong></p>
+           
+           
+            
+            
+            
+               
+               <div class="about-caption">
+                  <p class="section-subtitle"><b>Project 1</b></p>
+                  <h2 class="section-title mb-3">Power BI</h2>
+                  <p>
+                  <b>Overview</b> 
+We have been provided with sales & inventory data for a fictitious chain of toy stores in Mexico called Maven Toys, including information about products, stores, daily sales transactions, and current inventory levels at each location.
+
+The data spans from 2022 to 2023, containing over 1 Milions transactions for all stores owned by Maven Toys.
+
+The objective is to prepare the data, analyze and visualize it, and subsequently outline findings which allow the toy store chain to enhance its decision making capabilities and boost profits.
+
+The major questions that we will attempt to answer are:
+
+Which product categories drive the biggest profits? Is this the same across store locations? 
+Are there any seasonal trends or patterns in the sales data? Are sales being lost with 
+out-of-stock products at certain locations? How much money is tied up in inventory at the toy stores? How long will it last?
+<br>
+<a href=" https://kaggle.com/datasets/68a290f992033c070156c291b27a5e8490e57883f1894a57a4309507703c5a50"><b>Data Collection:</b></a> 
+The data used within this project is provided from the following link:
+We are given four tables in CSV format which contain the following fields:
+
+Products (35 unique products) Product_ID - Unique ID given to each product offered Product_Name - 
+Unique name given to each product offered Product_Category - Category group assigned to each product 
+based on its characteristics/utility Product_Cost - Expense incurred for making/attaining the product, 
+in US dollars Product_Price - Price at which the product is sold to customers, in US dollars Stores 
+(50 different stores) Store_ID - Unique store ID given to each toy store Store_Name - Unique store name 
+given to each toy store Store_City - City in Mexico where the store is located Store_Location - 
+Classification of location in the city where the store is located (Downtown, Commercial, Residential, 
+Airport) Store_Open_Date - Date when the store was opened Sales Sale_ID - Unique Sale_ID for each 
+transaction conducted in a store Date - Date on which the transaction occurred Store_ID - 
+Unique store ID given to each toy store Product_ID - Unique ID given to each product offered Units -
+ No of units of the product sold Inventory: Store_ID - Unique store ID given to each toy store 
+ Product_ID - Unique ID given to each product offered Stock_On_Hand - Stock quantity of the product 
+ in the store
+                     
+                  </p>
+                  <a class="btn-rounded btn btn-outline-primary mt-4" href="https://github.com/MRX-25/MavenMarket" target="_blank">To view more details, Click Here</a>
+               </div>
+            </div><!-- end of about wrapper -->
+         </div><!-- end of container -->
+      </section> <!-- end of about section -->
+   </section> <!-- End of Main Content -->
+
+
+
+   
+<!-- Main Content -->
+<section class="main-content">
+   <!-- about section -->
+   <section class="section pt-0" id="about">
+      <!-- container -->
+      <div class="container text-center">
+         <!-- about wrapper -->
+         
+
+         <style>
+            .about {
+                text-align: center; /* Center the content horizontally */
+            }
+        
+            .about-img-holder {
+                display: flex;
+                justify-content: center; /* Center the content horizontally */
+                align-items: center; /* Center the content vertically */
+                flex-wrap: nowrap; /* Ensure items stay in a single row */
+                gap: 20px; /* Add spacing between images and videos */
+                overflow-x: auto; /* Enable horizontal scrolling if content overflows container */
+                margin: auto; /* Center the container horizontally */
+                max-width: 1300px; /* Set maximum width for the container */
+            }
+        
+            .about-img {
+                border-radius: 5%;
+                width: 300px;
+                height: 200px;
+            }
+        </style>
+        
+        <div class="about">
+            <div class="about-img-holder">
+                <iframe src="https://drive.google.com/file/d/1r67qBj6UvXtFs-MRU-dFvYXKpUNOciYA/preview" class="about-img"></iframe>
+                <img src="assets/imgs/T2.png" class="about-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                <img src="assets/imgs/lkstd.png" class="about-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                
+               </div>
+        </div>
+        <p><strong>Unicorn Healthcare Solution Ltd.</strong></p>
+        
+        
+         
+         
+         
+            
+            <div class="about-caption">
+               <p class="section-subtitle"><b>Project 2</b></p>
+               <h2 class="section-title mb-3">Google Looker Studio</h2>
+               <p>
+               <b>Overview</b> 
+
+
+               In the realm of healthcare, diagnostic imaging plays a pivotal role in unraveling
+               the mysteries of the human body. This  post delves into a rich dataset encompassing 
+               diverse medical procedures, radiologists, and hospital settings. Join us on a journey through
+               the analysis of this intricate web of information to uncover patterns, trends, and valuable 
+               insights.                  
+               </p>
+               <a class="btn-rounded btn btn-outline-primary mt-4" href="https://github.com/MRX-25/Looker-Studio-Project" target="_blank">To view more details, Click Here</a>
+            </div>
+         </div><!-- end of about wrapper -->
+      </div><!-- end of container -->
+   </section> <!-- end of about section -->
+</section> <!-- End of Main Content -->
+
+
+
+<!-- Main Content -->
+<section class="main-content">
+   <!-- about section -->
+   <section class="section pt-0" id="about">
+      <!-- container -->
+      <div class="container text-center">
+         <!-- about wrapper -->
+         
+
+         <style>
+            .about {
+                text-align: center; /* Center the content horizontally */
+            }
+        
+            .about-img-holder {
+                display: flex;
+                justify-content: center; /* Center the content horizontally */
+                align-items: center; /* Center the content vertically */
+                flex-wrap: nowrap; /* Ensure items stay in a single row */
+                gap: 20px; /* Add spacing between images and videos */
+                overflow-x: auto; /* Enable horizontal scrolling if content overflows container */
+                margin: auto; /* Center the container horizontally */
+                max-width: 1300px; /* Set maximum width for the container */
+            }
+        
+            .about-img {
+                border-radius: 5%;
+                width: 300px;
+                height: 200px;
+            }
+        </style>
+        
+        <div class="about">
+            <div class="about-img-holder">
+                <iframe src="https://drive.google.com/file/d/16yBzEmQ2Z0jgvLo0tofe5ydb_rzmAsuz/preview" class="about-img"></iframe>
+                <img src="assets/imgs/FOODPANDA.png" class="about-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                <img src="assets/imgs/fp2.png" class="about-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                
+               </div>
+        </div>
+        <p><strong>Food Panda Demo</strong></p>
+        
+        
+         
+         
+         
+            
+            <div class="about-caption">
+               <p class="section-subtitle"><b>Project 3</b></p>
+               <h2 class="section-title mb-3">Snowflake Data Warehouse</h2>
+               <p>
+               <b>Overview</b> 
+
+
+The major questions that we will attempt to answer are:
+
+<br>
+<a href=" https://kaggle.com/datasets/68a290f992033c070156c291b27a5e8490e57883f1894a57a4309507703c5a50"><b>Data Collection:</b></a> 
+The data used within this project is provided from the following link:
+We are given four tables in CSV format which contain the following fields:
+
+Unique ID given to each product offered Stock_On_Hand - Stock quantity of the product 
+in the store
+                  
+               </p>
+               <a class="btn-rounded btn btn-outline-primary mt-4" href="https://github.com/MRX-25/MavenMarket" target="_blank">To view more details, Click Here</a>
+            </div>
+         </div><!-- end of about wrapper -->
+      </div><!-- end of container -->
+   </section> <!-- end of about section -->
+</section> <!-- End of Main Content -->
+
+
+
+<!-- Main Content -->
+<section class="main-content">
+   <!-- about section -->
+   <section class="section pt-0" id="about">
+      <!-- container -->
+      <div class="container text-center">
+         <!-- about wrapper -->
+         
+
+         <style>
+            .about {
+                text-align: center; /* Center the content horizontally */
+            }
+        
+            .about-img-holder {
+                display: flex;
+                justify-content: center; /* Center the content horizontally */
+                align-items: center; /* Center the content vertically */
+                flex-wrap: nowrap; /* Ensure items stay in a single row */
+                gap: 20px; /* Add spacing between images and videos */
+                overflow-x: auto; /* Enable horizontal scrolling if content overflows container */
+                margin: auto; /* Center the container horizontally */
+                max-width: 1300px; /* Set maximum width for the container */
+            }
+        
+            .about-img {
+                border-radius: 5%;
+                width: 300px;
+                height: 200px;
+            }
+        </style>
+        
+        <div class="about">
+            <div class="about-img-holder">
+                <iframe src="https://drive.google.com/file/d/1rX4FW9HbtdGML0GuatBlXnpxKl88r2uL/preview" class="about-img"></iframe>
+                <img src="assets/imgs/OLTP2.png" class="about-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                <img src="assets/imgs/OLTP3.png" class="about-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                
+               </div>
+        </div>
+        <p><strong>OLTP E-Commerce Dashboard</strong></p>
+        
+        
+         
+         
+         
+            
+            <div class="about-caption">
+               <p class="section-subtitle"><b>Project 4</b></p>
+               <h2 class="section-title mb-3">Snowfalke Data Warehouse</h2>
+               <p>
+               <b>Overview</b> 
+
+
+The major questions that we will attempt to answer are:
+
+<br>
+<a href=" https://kaggle.com/datasets/68a290f992033c070156c291b27a5e8490e57883f1894a57a4309507703c5a50"><b>Data Collection:</b></a> 
+The data used within this project is provided from the following link:
+We are given four tables in CSV format which contain the following fields:
+
+Unique ID given to each product offered Stock_On_Hand - Stock quantity of the product 
+in the store
+                  
+               </p>
+               <a class="btn-rounded btn btn-outline-primary mt-4" href="https://github.com/MRX-25/MavenMarket" target="_blank">To view more details, Click Here</a>
+            </div>
+         </div><!-- end of about wrapper -->
+      </div><!-- end of container -->
+   </section> <!-- end of about section -->
+</section> <!-- End of Main Content -->
+
+
+
+
+<!-- Main Content -->
+<section class="main-content">
+   <!-- about section -->
+   <section class="section pt-0" id="about">
+      <!-- container -->
+      <div class="container text-center">
+         <!-- about wrapper -->
+         
+
+         <style>
+            .about {
+                text-align: center; /* Center the content horizontally */
+            }
+        
+            .about-img-holder {
+                display: flex;
+                justify-content: center; /* Center the content horizontally */
+                align-items: center; /* Center the content vertically */
+                flex-wrap: nowrap; /* Ensure items stay in a single row */
+                gap: 20px; /* Add spacing between images and videos */
+                overflow-x: auto; /* Enable horizontal scrolling if content overflows container */
+                margin: auto; /* Center the container horizontally */
+                max-width: 1300px; /* Set maximum width for the container */
+            }
+        
+            .about-img {
+                border-radius: 5%;
+                width: 300px;
+                height: 200px;
+            }
+        </style>
+        
+        <div class="about">
+            <div class="about-img-holder">
+                <iframe src="https://drive.google.com/file/d/1Rs9FGUncpZK0dtw2MWnGARC_katDTtsX/preview" class="about-img"></iframe>
+                <img src="assets/imgs/ppv.png" class="about-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                <img src="assets/imgs/ppv2.webp" class="about-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                
+               </div>
+        </div>
+        <p><strong>Demo</strong></p>
+        
+        
+         
+         
+         
+            
+            <div class="about-caption">
+               <p class="section-subtitle"><b>Project 5</b></p>
+               <h2 class="section-title mb-3">Dashboard Using Python </h2>
+               <p>
+               <b>Overview</b> 
+               
+After dedicating countless hours to a challenging project, I am elated to announce its completion.
+This project has been a labor of passion and dedication, requiring meticulous attention to detail 
+and unwavering commitment. From the initial conception to the final execution, every step has been 
+a journey of growth and learning. Now, as I stand on the threshold of its completion, I am filled 
+with a profound sense of accomplishment and pride. With its intricate design and innovative approach, 
+I believe this project has the potential to make a significant impact in its respective field. As I 
+prepare to share it with the world, I am eager to see the positive reception it garners and the doors 
+it opens for further exploration and collaboration. This project represents not just the culmination 
+of hard work, but also the beginning of a new chapter filled with endless possibilities.
+               </p>
+               </div>
+         </div><!-- end of about wrapper -->
+      </div><!-- end of container -->
+   </section> <!-- end of about section -->
+</section> <!-- End of Main Content -->
+
+
+
+<!-- Main Content -->
+<section class="main-content">
+   <!-- about section -->
+   <section class="section pt-0" id="about">
+      <!-- container -->
+      <div class="container text-center">
+         <!-- about wrapper -->
+         
+
+         <style>
+            .about {
+                text-align: center; /* Center the content horizontally */
+            }
+        
+            .about-img-holder {
+                display: flex;
+                justify-content: center; /* Center the content horizontally */
+                align-items: center; /* Center the content vertically */
+                flex-wrap: nowrap; /* Ensure items stay in a single row */
+                gap: 20px; /* Add spacing between images and videos */
+                overflow-x: auto; /* Enable horizontal scrolling if content overflows container */
+                margin: auto; /* Center the container horizontally */
+                max-width: 1300px; /* Set maximum width for the container */
+            }
+        
+            .about-img {
+                border-radius: 5%;
+                width: 300px;
+                height: 200px;
+            }
+        </style>
+        
+        <div class="about">
+            <div class="about-img-holder">
+                <iframe src="https://drive.google.com/file/d/1Rs9FGUncpZK0dtw2MWnGARC_katDTtsX/preview" class="about-img"></iframe>
+                <img src="assets/imgs/r.png" class="about-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                <img src="assets/imgs/r2.png" class="about-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                
+               </div>
+        </div>
+        <p><strong>Demo</strong></p>
+        
+        
+         
+         
+         
+            
+            <div class="about-caption">
+               <p class="section-subtitle"><b>Project 6</b></p>
+               <h2 class="section-title mb-3">R Studio</h2>
+               <p>
+               <b>Overview</b> 
+After dedicating countless hours to a challenging project, I am elated to announce its completion.
+This project has been a labor of passion and dedication, requiring meticulous attention to detail 
+and unwavering commitment. From the initial conception to the final execution, every step has been 
+a journey of growth and learning. Now, as I stand on the threshold of its completion, I am filled 
+with a profound sense of accomplishment and pride. With its intricate design and innovative approach,
+I believe this project has the potential to make a significant impact in its respective field. 
+As I prepare to share it with the world, I am eager to see the positive reception it garners and 
+the doors it opens for further exploration and collaboration. This project represents not just 
+the culmination of hard work, but also the beginning of a new chapter filled with endless possibilities.
+                  
+               </p>
+               <a class="btn-rounded btn btn-outline-primary mt-4" href="https://github.com/MRX-25/MavenMarket" target="_blank">To view more details, Click Here</a>
+            </div>
+         </div><!-- end of about wrapper -->
+      </div><!-- end of container -->
+   </section> <!-- end of about section -->
+</section> <!-- End of Main Content -->
+
+
+   <!-- footer -->
+   <div class="container mt-5">
+      <footer class="footer">
+         <p class="mb-0">Copyright
+            <script>document.write(new Date().getFullYear())</script> &copy; <a
+               href="http://www.devcrud.com">DevCRUD</a> Distribution <a href="https://themewagon.com">ThemeWagon</a>
+         </p>
+         <div class="social-links text-right m-auto ml-sm-auto">
+            <a href="https://www.linkedin.com/in/tanvir-ahamed-08286321b" class="link" target="_blank"><i class="ti-linkedin"></i></a>
+            <a href="https://github.com/MRX-25" class="link" target="_blank"><i class="ti-github"></i></a>
+            <a href="https://twitter.com/TanvirAhamed_25" class="link" target="_blank"><i class="ti-twitter-alt"></i></a>
+            <a href="https://www.facebook.com/Trtushar8/" class="link" target="_blank"><i class="ti-facebook"></i></a>
+            <a href="https://instagram.com/tanvir_ahmed._.tushar?igshid=YzAwZjE1ZTI0Zg==" class="link" target="_blank"><i class="ti-instagram"></i></a>
+            <a href="https://medium.com/@tanvir.cse25" class="link" target="_blank"><i class="ti-rss"></i></a>
+        </div>
+      </footer>
+   </div> <!-- end of page footer -->
+
+   <!-- core  -->
+   <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+   <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+</body>
+
+</html>
